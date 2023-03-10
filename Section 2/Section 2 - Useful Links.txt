@@ -1,0 +1,2 @@
+AVRO for Kafka Data
+https://www.confluent.io/blog/avro-kafka-data/

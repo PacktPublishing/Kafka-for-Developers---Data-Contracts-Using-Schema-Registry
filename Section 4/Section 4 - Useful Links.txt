@@ -1,0 +1,5 @@
+Commands link
+https://github.com/dilipsundarraj1/kafka-for-developers-using-schema-registry#readme
+
+https://github.com/dilipsundarraj1/kafka-for-developers-using-schema-registry#interacting-with-kafka-using-avro-records
+

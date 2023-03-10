@@ -1,0 +1,40 @@
+{
+  "name": "CoffeeOrder",
+  "namespace": "com.learnavro.domain.generated",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "nickName",
+      "type": "string",
+      "default": "",
+      "doc": "Optional Field represents the nick name of the user"
+    },
+    {
+      "name": "store",
+      "type": "Store"
+    },
+    {
+      "name": "orderLineItems",
+      "type": {
+        "type": "array",
+        "items": {
+          "name": "orderLineItem",
+          "type": "OrderLineItem"
+        }
+      }
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "default": "NEW"
+    }
+  ]
+}

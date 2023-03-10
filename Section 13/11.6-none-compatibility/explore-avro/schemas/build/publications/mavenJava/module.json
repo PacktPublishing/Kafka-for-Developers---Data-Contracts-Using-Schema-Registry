@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.learnavro",
+    "module": "schemas",
+    "version": "5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "schemas-5.0.jar",
+          "url": "schemas-5.0.jar",
+          "size": 32761,
+          "sha512": "a5121f69c8a3659dc8b2128a1b7bdbd3801b18e5071851bb3b99047b581cfc4819846b8ee7a7eaba04daa236d2b91686220906f461ab76cb4120237e5a3e730f",
+          "sha256": "12b2abce9294156857741b744ce8a1bb10dcbf9405b73ac1af08db5e38060038",
+          "sha1": "685b8b45c814d6cb2d72bc2888c61828c8800f12",
+          "md5": "84dbfeae9b410a350871f6071069319a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.avro",
+          "module": "avro",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.apache.avro",
+          "module": "avro-tools",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-core",
+          "version": {
+            "requires": "1.2.11"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.11"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.confluent",
+          "module": "kafka-avro-serializer",
+          "version": {
+            "requires": "5.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schemas-5.0.jar",
+          "url": "schemas-5.0.jar",
+          "size": 32761,
+          "sha512": "a5121f69c8a3659dc8b2128a1b7bdbd3801b18e5071851bb3b99047b581cfc4819846b8ee7a7eaba04daa236d2b91686220906f461ab76cb4120237e5a3e730f",
+          "sha256": "12b2abce9294156857741b744ce8a1bb10dcbf9405b73ac1af08db5e38060038",
+          "sha1": "685b8b45c814d6cb2d72bc2888c61828c8800f12",
+          "md5": "84dbfeae9b410a350871f6071069319a"
+        }
+      ]
+    }
+  ]
+}

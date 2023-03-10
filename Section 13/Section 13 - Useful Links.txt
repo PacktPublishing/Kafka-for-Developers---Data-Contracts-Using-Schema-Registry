@@ -1,0 +1,17 @@
+Schema Evolution Link
+https://docs.confluent.io/platform/current/schema-registry/avro.html
+
+Backward Compatibility
+https://docs.confluent.io/platform/current/schema-registry/avro.html#backward-compatibility
+
+Backward Compatibility Steps
+https://github.com/dilipsundarraj1/kafka-for-developers-using-schema-registry/tree/final#backward-compatibility
+
+Forward Compatibility Steps
+https://github.com/dilipsundarraj1/kafka-for-developers-using-schema-registry/tree/final#forward-compatibility
+
+Full Compatibility Steps
+https://github.com/dilipsundarraj1/kafka-for-developers-using-schema-registry/tree/final#full-compatibility
+
+NONE Compatibility Steps
+https://github.com/dilipsundarraj1/kafka-for-developers-using-schema-registry/tree/final#none-compatibility

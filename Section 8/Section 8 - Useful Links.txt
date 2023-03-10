@@ -1,0 +1,8 @@
+Coffee-Order-Create.json
+https://github.com/dilipsundarraj1/kafka-for-developers-using-schema-registry/blob/final/Coffee-Order-Create.json
+
+AVRO Schema Info
+https://avro.apache.org/docs/1.11.1/specification/_print/
+
+CoffeeOrderUtil
+https://github.com/dilipsundarraj1/kafka-for-developers-using-schema-registry/blob/final/gradle/explore-avro/coffee-orders-service/src/main/java/com/learnavro/util/CoffeeOrderUtil.java
